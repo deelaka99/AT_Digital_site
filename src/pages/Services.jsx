@@ -13,7 +13,7 @@ function Services() {
         </div>
         {/* for web & mobile app development part */}
         <div className="w-full mobile:h-[50vh] flex flex-col items-center justify-center mobile:px-3 mobile:py-2">
-          <h1 className="text-center font-inter font-semibold text-primary mobile:text-2xl">
+          <h1 className="text-center font-poppins font-bold text-primary mobile:text-2xl">
             Web & Mobile App Development
           </h1>
           <br />
@@ -41,7 +41,7 @@ function Services() {
         </div>
         {/* for web & mobile app development part */}
         <div className="w-full mobile:h-[50vh] flex flex-col items-center justify-center mobile:px-3 mobile:py-2">
-          <h1 className="text-center font-inter font-semibold text-primary mobile:text-2xl">
+          <h1 className="text-center font-poppins font-semibold text-primary mobile:text-2xl">
             Digital Strategy Consulting
           </h1>
           <br />
