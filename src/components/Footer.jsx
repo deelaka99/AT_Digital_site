@@ -37,12 +37,12 @@ function Footer() {
       </div>
       <div className="w-full mobile:h-[7vh] flex border-t border-white mobile:py-2">
         <div className="h-full w-1/2 flex items-center justify-center">
-          <p className="font-inter text-white mobile:text-[14px]">
+          <p className="font-inter text-white mobile:text-[14px] active:text-txtColorSubtle">
             Privacy Policy
           </p>
         </div>
         <div className="h-full w-1/2 flex items-center justify-center border-l border-white">
-          <p className="font-inter text-white mobile:text-[14px]">
+          <p className="font-inter text-white mobile:text-[14px] active:text-txtColorSubtle">
             Terms & Conditions
           </p>
         </div>
