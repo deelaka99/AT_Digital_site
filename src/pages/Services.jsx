@@ -1,4 +1,4 @@
 function Services() {
-  return <div>Services</div>;
+  return <div className="bg-error w-full mobile:h-[180vh]">Services</div>;
 }
 export default Services;

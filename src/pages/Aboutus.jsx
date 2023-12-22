@@ -1,6 +1,4 @@
 function Aboutus() {
-  return (
-    <div>Aboutus</div>
-  )
+  return <div className="bg-success w-full mobile:h-[90vh]">Aboutus</div>;
 }
-export default Aboutus
+export default Aboutus;
