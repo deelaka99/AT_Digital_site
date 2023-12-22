@@ -17,7 +17,7 @@ function Home() {
       </div>
       {/* Home fraction 3 for intro paragraph */}
       <div className="bg-gradient-to-r from-dark to-analogous2  w-full mobile:h-[50vh] mobile:px-6 mobile:py-7">
-        <p className="font-inter font-bold text-accent1 mobile:text-4xl">
+        <p className="font-inter font-bold text-accent1 mobile:text-[36px] mobile:leading-[1]">
           We Crush Your
           <br />
           Competitors,
@@ -29,7 +29,7 @@ function Home() {
           The B.S
         </p>
         <p>&nbsp;</p>
-        <button className="bg-secondary font-inter font-semibold mobile:text-sm text-accent1 mobile:py-3 mobile:px-6 rounded shadow-md active:bg-txtColorLight">
+        <button className="bg-secondary font-inter font-semibold mobile:text-[14px] text-accent1 mobile:py-3 mobile:px-6 rounded shadow-md active:bg-txtColorLight">
           GET FREE CONSULTATION
         </button>
       </div>
