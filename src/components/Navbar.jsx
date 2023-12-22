@@ -5,7 +5,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   return (
-    <div className="w-full mobile:h-[10vh] bg-primary flex">
+    <div className="w-full mobile:h-[10vh] bg-primary flex fixed top-0 z-50">
       <div className="h-full mobile:w-3/4 flex items-center justify-start mobile:pl-3 mobile:pt-2 mobile:pb-2">
         <img className="mobile:w-5/6 mobile:h-5/6" src={Logo} alt="logo" />
       </div>
