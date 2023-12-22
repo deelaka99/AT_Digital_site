@@ -9,7 +9,7 @@ function Services() {
       <div className="bg-white w-full mobile:h-[90vh]">
         {/* for PC image */}
         <div className="w-full mobile:h-[30vh] mobile:px-2 mobile:py-2 flex items-center justify-center">
-          <img src={PC} alt="PC" className="mobile:h-4/5 mobile:w-4/5" />
+          <img src={PC} alt="PC" className="mobile:w-2/3" />
         </div>
         {/* for web & mobile app development part */}
         <div className="w-full mobile:h-[60vh] flex flex-col items-center justify-center mobile:px-3 mobile:py-2">
@@ -36,7 +36,7 @@ function Services() {
           <img
             src={Magnifier}
             alt="Magnifier"
-            className="mobile:h-4/5 mobile:w-4/5"
+            className="mobile:w-4/5"
           />
         </div>
         {/* for web & mobile app development part */}
