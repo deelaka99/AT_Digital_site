@@ -26,9 +26,10 @@ export default {
       jomhuria: ["Jomhuria", "cursive"]
     },
     screens:{
-      'tablet':'640px',
-      'laptop':'1024px',
-      'desktop':'1280px',
+      'mobile':'375px',
+      'tablet':'768px',
+      'laptop':'1200px',
+      'desktop':'1440px',
     },
   },
   plugins: [],
