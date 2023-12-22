@@ -20,6 +20,7 @@ export default {
       'accent2' :'#fff8e0',
       'error':'#ff0335',
       'success' :'#5eb30b',
+      'white' :'#FFFFFF',
     },
     fontFamily: {
       inter: ["Inter", "sans-serif"],

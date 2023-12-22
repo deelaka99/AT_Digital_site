@@ -10,7 +10,7 @@ function Navbar() {
         <img className="mobile:w-5/6 mobile:h-5/6" src={Logo} alt="logo" />
       </div>
       <div className="h-full mobile:w-1/4 flex items-center justify-end bg-success">
-        <FontAwesomeIcon icon={faBars} />
+        <FontAwesomeIcon className="text-white" icon={faBars} />
       </div>
     </div>
   );
