@@ -3,7 +3,7 @@ import Logo from "../assets/pictures/logo.png";
 
 function Footer() {
   return (
-    <div className="bg-primary w-full mobile:h-[100vh] tablet:h-[40vh] laptop:h-[45vh] mobile:px-3 mobile:py-[2vh] tablet:px-7 tablet:py-2 flex flex-col">
+    <div id="Footer" className="bg-primary w-full mobile:h-[100vh] tablet:h-[40vh] laptop:h-[45vh] mobile:px-3 mobile:py-[2vh] tablet:px-7 tablet:py-2 flex flex-col">
       <div className="laptop:hidden w-full mobile:h-[23vh] tablet:h-[15vh] py-2">
         <img
           src={Logo}

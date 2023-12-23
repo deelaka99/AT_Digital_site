@@ -4,7 +4,7 @@ import Magnifier from "../assets/pictures/magnifier.png";
 
 function Services() {
   return (
-    <div className="w-full mobile:h-[180vh] tablet:h-[80vh] laptop:h-[150vh] laptop:px-28">
+    <div id="Services" className="w-full mobile:h-[180vh] tablet:h-[80vh] laptop:h-[150vh] laptop:px-28">
       {/* Service 1 fraction:- web & mobile app development part */}
       <div className="bg-white w-full mobile:h-[90vh] tablet:h-[40vh] laptop:h-[75vh] tablet:flex tablet:px-7 laptop:px-0">
         {/* for PC image */}

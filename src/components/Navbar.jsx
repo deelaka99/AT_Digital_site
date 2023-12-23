@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import Logo from "../assets/pictures/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faRectangleXmark } from "@fortawesome/free-solid-svg-icons";
@@ -13,7 +14,13 @@ function Navbar() {
   return (
     <div className="w-full mobile:h-[10vh] tablet:h-[8vh] laptop:h-[9vh] bg-primary flex fixed top-0 z-50">
       <div className="h-full mobile:w-3/4 tablet:w-2/5 laptop:w-1/4 flex items-center justify-start mobile:pl-3 mobile:pt-2 mobile:pb-2 tablet:pl-7 tablet:pt-4 tablet:pb-4">
-        <img className="mobile:w-4/6 tablet:w-4/5 laptop:w-[180px]" src={Logo} alt="logo" />
+        <Link spy={true} to="Home" smooth={true} activeClass="activeClass">
+          <img
+            className="mobile:w-4/6 tablet:w-4/5 laptop:w-[180px] active:shadow cursor-pointer"
+            src={Logo}
+            alt="logo"
+          />
+        </Link>
       </div>
       <div className="h-full mobile:w-1/4 tablet:w-3/5 laptop:w-3/4 flex items-center justify-end mobile:pr-5 mobile:pt-2 mobile:pb-2 tablet:pr-7 tablet:pt-4 tablet:pb-4 tablet:gap-7 laptop:gap-10">
         <FontAwesomeIcon
@@ -21,10 +28,26 @@ function Navbar() {
           icon={faBars}
           onClick={toggleMenu}
         />
-        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary hover:text-txtColorSubtle cursor-pointer">SERVICES</h1>
-        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary hover:text-txtColorSubtle cursor-pointer">ABOUT US</h1>
-        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary hover:text-txtColorSubtle cursor-pointer">CONTACT US</h1>
-        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary hover:text-txtColorSubtle cursor-pointer">CAREERS</h1>
+        <Link spy={true} to="Services" smooth={true} activeClass="activeClass">
+          <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary hover:text-txtColorSubtle cursor-pointer">
+            SERVICES
+          </h1>
+        </Link>
+        <Link spy={true} to="Footer" smooth={true} activeClass="activeClass">
+          <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary hover:text-txtColorSubtle cursor-pointer">
+            ABOUT US
+          </h1>
+        </Link>
+        <Link spy={true} to="Footer" smooth={true} activeClass="activeClass">
+          <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary hover:text-txtColorSubtle cursor-pointer">
+            CONTACT US
+          </h1>
+        </Link>
+        <Link spy={true} to="Footer" smooth={true} activeClass="activeClass">
+          <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary hover:text-txtColorSubtle cursor-pointer">
+            CAREERS
+          </h1>
+        </Link>
       </div>
       {MenuOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-primary tablet:hidden">

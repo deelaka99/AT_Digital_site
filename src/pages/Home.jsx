@@ -3,7 +3,7 @@ import Girl from "../assets/pictures/girl.jpg";
 
 function Home() {
   return (
-    <div className="w-full mobile:h-[100vh] tablet:relative">
+    <div id="Home" className="w-full mobile:h-[100vh] tablet:relative">
       {/* Home fraction 1 for navbar gap filling */}
       <div className="w-full mobile:h-[10vh] tablet:h-[8vh] laptop:h-[9vh]"></div>
       {/* Home fraction 2 for girl image */}
