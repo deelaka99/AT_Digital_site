@@ -17,7 +17,7 @@ function Services() {
             Web & Mobile App Development
           </h1>
           <br />
-          <p className="mobile:text-center tablet:text-start font-medium font-inter text-txtColor mobile:text-[16px] mobile:leading-[1.2] tablet:text-[18px] tablet:leading-[1.2]">
+          <p className="mobile:text-center tablet:text-start font-medium font-inter text-txtColor mobile:text-[16px] mobile:leading-[1.2] tablet:text-[20px] tablet:leading-[1.2]">
             Your web and mobile Apps are pieces of the puszzle to grow your
             business. We use frameworks which tailor content and engagement
             methods to respond to different intents shown by your potential
@@ -44,7 +44,7 @@ function Services() {
             Digital Strategy Consulting
           </h1>
           <br />
-          <p className="mobile:hidden tablet:block tablet:text-start font-medium font-inter text-txtColor tablet:text-[18px] tablet:leading-[1.2]">
+          <p className="mobile:hidden tablet:block tablet:text-start font-medium font-inter text-txtColor tablet:text-[20px] tablet:leading-[1.2]">
             Your digital strategy should complement the overall marketing
             strategy of the company. In online marketing, each component will
             never work in isolation and every business needs a different mix. We
