@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="h-screen w-full bg-secondary">
+    <div className="h-screen w-full">
       <Navbar />
       <Home />
       <Services />
