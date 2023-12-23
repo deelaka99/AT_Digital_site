@@ -52,7 +52,17 @@ function Navbar() {
       {MenuOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-primary tablet:hidden">
           <div className="w-full h-[10vh] border-b border-white flex items-center justify-between text-white px-6">
-            <img className="w-[140px]" src={Logo} alt="Logo" />
+            <Link
+              spy={true}
+              to="Home"
+              smooth={true}
+              activeClass="activeClass"
+              onClick={() => {
+                setMenuOpen(!MenuOpen);
+              }}
+            >
+              <img className="w-[140px]" src={Logo} alt="Logo" />
+            </Link>
             <FontAwesomeIcon
               className="text-2xl active:text-secondary"
               icon={faRectangleXmark}
@@ -63,10 +73,50 @@ function Navbar() {
           </div>
           <div className="w-full h-[90vh] flex justify-center pt-[7vh]">
             <ul className="text-white text-xl font-inter font-medium leading-10">
-              <li className="active:text-secondary">Services</li>
-              <li className="active:text-secondary">About Us</li>
-              <li className="active:text-secondary">Contact Us</li>
-              <li className="active:text-secondary">Careers</li>
+              <Link
+                spy={true}
+                to="Services"
+                smooth={true}
+                activeClass="activeClass"
+                onClick={() => {
+                  setMenuOpen(!MenuOpen);
+                }}
+              >
+                <li className="active:text-secondary">Services</li>
+              </Link>
+              <Link
+                spy={true}
+                to="Footer"
+                smooth={true}
+                activeClass="activeClass"
+                onClick={() => {
+                  setMenuOpen(!MenuOpen);
+                }}
+              >
+                <li className="active:text-secondary">About Us</li>
+              </Link>
+              <Link
+                spy={true}
+                to="Footer"
+                smooth={true}
+                activeClass="activeClass"
+                onClick={() => {
+                  setMenuOpen(!MenuOpen);
+                }}
+              >
+                <li className="active:text-secondary">Contact Us</li>
+              </Link>
+              <Link
+                spy={true}
+                to="Footer"
+                smooth={true}
+                activeClass="activeClass"
+                onClick={() => {
+                  setMenuOpen(!MenuOpen);
+                }}
+              >
+                <li className="active:text-secondary">Careers</li>
+              </Link>
             </ul>
           </div>
         </div>
