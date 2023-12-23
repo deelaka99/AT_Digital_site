@@ -21,10 +21,10 @@ function Navbar() {
           icon={faBars}
           onClick={toggleMenu}
         />
-        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary">SERVICES</h1>
-        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary">ABOUT US</h1>
-        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary">CONTACT US</h1>
-        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary">CAREERS</h1>
+        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary hover:text-txtColorSubtle cursor-pointer">SERVICES</h1>
+        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary hover:text-txtColorSubtle cursor-pointer">ABOUT US</h1>
+        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary hover:text-txtColorSubtle cursor-pointer">CONTACT US</h1>
+        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary hover:text-txtColorSubtle cursor-pointer">CAREERS</h1>
       </div>
       {MenuOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-primary tablet:hidden">
