@@ -128,12 +128,12 @@ function Footer() {
         <div className="h-full w-3/5 flex laptop:py-3 laptop:border-t-2 border-white">
           <div className="h-full w-1/2 flex items-center tablet:justify-end pr-8">
             <div className="h-full w-1/2"></div>
-            <p className="font-inter text-white laptop:text-[18px] active:text-secondary">
+            <p className="font-inter text-white laptop:text-[18px] active:text-secondary hover:text-txtColorSubtle cursor-pointer">
               Privacy Policy
             </p>
           </div>
           <div className="h-full w-1/2 flex items-center justify-start pl-8 border-l-2 border-white">
-            <p className="font-inter text-white laptop:text-[18px] active:text-secondary">
+            <p className="font-inter text-white laptop:text-[18px] active:text-secondary hover:text-txtColorSubtle cursor-pointer">
               Terms & Conditions
             </p>
           </div>
