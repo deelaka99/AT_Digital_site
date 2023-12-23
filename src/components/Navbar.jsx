@@ -11,20 +11,20 @@ function Navbar() {
   };
 
   return (
-    <div className="w-full mobile:h-[10vh] tablet:h-[8vh] bg-primary flex fixed top-0 z-50">
-      <div className="h-full mobile:w-3/4 tablet:w-2/5 flex items-center justify-start mobile:pl-3 mobile:pt-2 mobile:pb-2 tablet:pl-7 tablet:pt-4 tablet:pb-4">
-        <img className="mobile:w-4/6 tablet:w-4/5" src={Logo} alt="logo" />
+    <div className="w-full mobile:h-[10vh] tablet:h-[8vh] laptop:h-[9vh] bg-primary flex fixed top-0 z-50">
+      <div className="h-full mobile:w-3/4 tablet:w-2/5 laptop:w-1/4 flex items-center justify-start mobile:pl-3 mobile:pt-2 mobile:pb-2 tablet:pl-7 tablet:pt-4 tablet:pb-4">
+        <img className="mobile:w-4/6 tablet:w-4/5 laptop:w-[180px]" src={Logo} alt="logo" />
       </div>
-      <div className="h-full mobile:w-1/4 tablet:w-3/5 flex items-center justify-end mobile:pr-5 mobile:pt-2 mobile:pb-2 tablet:pr-7 tablet:pt-4 tablet:pb-4 gap-7">
+      <div className="h-full mobile:w-1/4 tablet:w-3/5 laptop:w-3/4 flex items-center justify-end mobile:pr-5 mobile:pt-2 mobile:pb-2 tablet:pr-7 tablet:pt-4 tablet:pb-4 tablet:gap-7 laptop:gap-10">
         <FontAwesomeIcon
           className="text-white mobile:text-[32px] active:text-secondary tablet:hidden"
           icon={faBars}
           onClick={toggleMenu}
         />
-        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] font-inter font-medium active:text-secondary">SERVICES</h1>
-        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] font-inter font-medium active:text-secondary">ABOUT US</h1>
-        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] font-inter font-medium active:text-secondary">CONTACT US</h1>
-        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] font-inter font-medium active:text-secondary">CAREERS</h1>
+        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary">SERVICES</h1>
+        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary">ABOUT US</h1>
+        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary">CONTACT US</h1>
+        <h1 className="mobile:hidden tablet:block text-white tablet:text-[16px] laptop:text-[17px] font-inter tablet:font-medium laptop:font-normal active:text-secondary">CAREERS</h1>
       </div>
       {MenuOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-primary tablet:hidden">
